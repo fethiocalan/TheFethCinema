@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FEF8AF50-3E55-49D8-92AC-0F07562B7D8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CinemaProject</RootNamespace>
+    <AssemblyName>CinemaProject</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>iconTheFeth.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Drawing.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v24.1.UI, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v24.1.UI, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v24.1.Wizard, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="acListUserControl.Designer.cs">
+      <DependentUpon>acListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActorList.Designer.cs">
+      <DependentUpon>ActorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActorListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ActorListUserControl.Designer.cs">
+      <DependentUpon>ActorListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddActors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddActors.Designer.cs">
+      <DependentUpon>AddActors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDirector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDirector.Designer.cs">
+      <DependentUpon>AddDirector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddHall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddHall.Designer.cs">
+      <DependentUpon>AddHall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMovies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMovies.Designer.cs">
+      <DependentUpon>AddMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSession.Designer.cs">
+      <DependentUpon>AddSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkLogIn.cs" />
+    <Compile Include="CreateTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateTicket.Designer.cs">
+      <DependentUpon>CreateTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyReport.Designer.cs">
+      <DependentUpon>DailyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectorList.Designer.cs">
+      <DependentUpon>DirectorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DirectorListUserControl.Designer.cs">
+      <DependentUpon>DirectorListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="drListUserControl.Designer.cs">
+      <DependentUpon>drListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HallList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HallList.Designer.cs">
+      <DependentUpon>HallList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HallListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HallListUserControl.Designer.cs">
+      <DependentUpon>HallListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieList.Designer.cs">
+      <DependentUpon>MovieList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MovieListUserControl.Designer.cs">
+      <DependentUpon>MovieListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfitLoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfitLoss.Designer.cs">
+      <DependentUpon>ProfitLoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SessionList.Designer.cs">
+      <DependentUpon>SessionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SessionListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SessionListUserControl.Designer.cs">
+      <DependentUpon>SessionListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketCheck.Designer.cs">
+      <DependentUpon>TicketCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ticketUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ticketUserControl.Designer.cs">
+      <DependentUpon>ticketUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TodaysSection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TodaysSection.Designer.cs">
+      <DependentUpon>TodaysSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateActor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateActor.Designer.cs">
+      <DependentUpon>UpdateActor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDirector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDirector.Designer.cs">
+      <DependentUpon>UpdateDirector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateHalls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateHalls.Designer.cs">
+      <DependentUpon>UpdateHalls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateMovie.Designer.cs">
+      <DependentUpon>UpdateMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserList.Designer.cs">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userListControl.Designer.cs">
+      <DependentUpon>userListControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="acListUserControl.resx">
+      <DependentUpon>acListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActorList.resx">
+      <DependentUpon>ActorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActorListUserControl.resx">
+      <DependentUpon>ActorListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddActors.resx">
+      <DependentUpon>AddActors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDirector.resx">
+      <DependentUpon>AddDirector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddHall.resx">
+      <DependentUpon>AddHall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMovies.resx">
+      <DependentUpon>AddMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSession.resx">
+      <DependentUpon>AddSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateTicket.resx">
+      <DependentUpon>CreateTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyReport.resx">
+      <DependentUpon>DailyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectorList.resx">
+      <DependentUpon>DirectorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectorListUserControl.resx">
+      <DependentUpon>DirectorListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drListUserControl.resx">
+      <DependentUpon>drListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallList.resx">
+      <DependentUpon>HallList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallListUserControl.resx">
+      <DependentUpon>HallListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieList.resx">
+      <DependentUpon>MovieList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieListUserControl.resx">
+      <DependentUpon>MovieListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfitLoss.resx">
+      <DependentUpon>ProfitLoss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SessionList.resx">
+      <DependentUpon>SessionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SessionListUserControl.resx">
+      <DependentUpon>SessionListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketCheck.resx">
+      <DependentUpon>TicketCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ticketUserControl.resx">
+      <DependentUpon>ticketUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TodaysSection.resx">
+      <DependentUpon>TodaysSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateActor.resx">
+      <DependentUpon>UpdateActor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDirector.resx">
+      <DependentUpon>UpdateDirector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateHalls.resx">
+      <DependentUpon>UpdateHalls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateMovie.resx">
+      <DependentUpon>UpdateMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserList.resx">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userListControl.resx">
+      <DependentUpon>userListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comed7-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actio-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fantas-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horro-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sci-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myster-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\romanc-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thrille-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animatio-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wester-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star_empty1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star_filled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nationality_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surname_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biography_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gender_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cast_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biography_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name_icon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nationality_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gender_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CinemaLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director_icon5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actor_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glasses_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hall_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comedy_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fantasy_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horror_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sci-fi_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mystery_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Romance_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thriller_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animation_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\western_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\genres_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director_icon10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actor_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rate_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\format_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feature_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poster_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movieName_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\release_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4k_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1080p_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imax_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CC_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mp4_icom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mvk_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avi_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+7_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+13_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+18_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+21_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+18_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\family_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\substance_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sexual_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\general audience_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\violence_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trueEvent_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Argo_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traji_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mkv_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_icon31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duration_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saloon_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\active_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deactive_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_icon21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_icon22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vip_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standart_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4d_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wide_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\led_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curved_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolby_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolby_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laserProjection_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheelchair_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elevator_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramp_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearing-aid_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subtitles_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seat_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinemaHall_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\session_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smovie_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glasses_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sessionTime_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curtain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-chair-blue_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-chair-Yellow_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-chair-red_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-chair_kuccuk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-chair-blue_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-chair_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-chair_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-chair_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stairs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticketType_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seat_icon12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sessionTime_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hall_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chairTicket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\age_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profitLoss_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="iconTheFeth.ico" />
+    <Content Include="popcorn.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
