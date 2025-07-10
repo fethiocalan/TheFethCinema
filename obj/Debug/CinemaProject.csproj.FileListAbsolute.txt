@@ -1,0 +1,132 @@
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe.config
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\CinemaProject.pdb
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Data.v24.1.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.AssemblyReference.cache
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AddMovieUserControl.resources
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.MainForm.resources
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.Properties.Resources.resources
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.GenerateResource.cache
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.exe.licenses
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CoreCompileInputs.cache
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaPr.7A5619D7.Up2Date
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.exe
+C:\Users\ocala\Desktop\get_to_know_C#\CinemaProject\CinemaProject\obj\Debug\CinemaProject.pdb
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\CinemaProject.exe.config
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\CinemaProject.exe
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\CinemaProject.pdb
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Charts.v24.1.Core.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Data.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Utils.v24.1.UI.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraCharts.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraCharts.v24.1.UI.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraNavBar.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraRichEdit.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraVerticalGrid.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.DataAccess.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.DataVisualization.v24.1.Core.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Office.v24.1.Core.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Images.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Xpo.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.CodeParser.v24.1.dll
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Charts.v24.1.Core.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Utils.v24.1.UI.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraCharts.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraCharts.v24.1.UI.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraNavBar.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraRichEdit.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraVerticalGrid.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.DataAccess.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\bin\Debug\DevExpress.Xpo.v24.1.xml
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.csproj.AssemblyReference.cache
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.acListUserControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.ActorList.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.ActorListUserControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.AddActors.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.AddDirector.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.AddHall.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.AddMovies.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.AddSession.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.AddUser.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.CreateTicket.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.DailyReport.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.DirectorList.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.DirectorListUserControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.drListUserControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.FastAccess.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.HallList.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.HallListUserControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.LogIn.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.MainForm.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.MovieList.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.MovieListUserControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.ProfitLoss.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.Properties.Resources.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.SessionList.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.SessionListUserControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.TicketCheck.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.ticketUserControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.TodaysSection.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.UpdateActor.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.dr.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.UpdateHalls.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.UpdateMovie.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.UserList.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.userListControl.resources
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.csproj.GenerateResource.cache
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.exe.licenses
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.csproj.CoreCompileInputs.cache
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaPr.7A5619D7.Up2Date
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.exe
+C:\Users\ocala\OneDrive\Desktop\TheFeth Cinema\CinemaProject\obj\Debug\CinemaProject.pdb
